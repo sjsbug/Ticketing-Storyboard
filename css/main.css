@@ -227,6 +227,9 @@ h4 {
 
 #reveal1 {
 	width: 20%;
+	top: 21%;
+	left: 19%;
+	position: relative;
 }
 
 #youremail {
@@ -235,6 +238,7 @@ h4 {
 
 #reveal2 {
 	width: 20%;
+	position: relative;
 }
 
 #yourpass {
@@ -243,6 +247,7 @@ h4 {
 
 #reveal3 {
 	width: 20%;
+	position: relative;
 }
 
 #yourphone {
@@ -251,6 +256,7 @@ h4 {
 
 #reveal4 {
 	width: 20%;
+	position: relative;
 }
 
 .mugwords {
@@ -262,8 +268,6 @@ h4 {
 
 .mugbars {
 	left: 19%;
-	position: relative;
 	height: 1.5em;
 	background-color: white;
-	z-index: 102;
 }
