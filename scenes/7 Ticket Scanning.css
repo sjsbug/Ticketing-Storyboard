@@ -1,0 +1,56 @@
+#bg1{
+	position: fixed;
+	overflow-y: hidden;
+	z-index: -1001;
+	width:100%;
+}
+
+#header{
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	margin-left: 50px;
+	margin-top: 30px;
+	position: fixed;
+}
+
+#scanner{
+	position: fixed;
+	margin-left: 600px;
+	margin-top: 200px;
+}
+
+#barcode1{
+	position: fixed;
+	margin-left: 530px;
+	margin-top: 275px;
+}
+
+#scan{
+	position: fixed;
+	margin-left: 745px;
+	margin-top: 290px;
+}
+
+#barcode2{
+	position: fixed;
+	margin-left: 530px;
+	margin-top: 275px;
+}
+
+#barcode3{
+	position: fixed;
+	margin-left: 530px;
+	margin-top: 275px;
+}
+
+#text{
+	position: fixed;
+	margin-left: 90px;
+	margin-top: 130px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
