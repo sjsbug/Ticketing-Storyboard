@@ -176,7 +176,11 @@ h4 {
 
 #icon {
 	top: 30%;
-	margin-left: -15%;
+}
+
+#tagline {
+	position: relative;
+	top: 30%;
 }
 
 /* Pending Deletion
