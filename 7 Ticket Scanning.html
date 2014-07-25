@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="T-Ticket Scanning.css">
+	<link rel="stylesheet" type="text/css" href="css/7 Ticket Scanning.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
 <div>
-	<img id="bg1" src="/Users/gracesnoh/Documents/CS Practice/pics/concert blurred.png">
+	<img id="bg1" src="images/concert blurred.png">
 
 	<p id="header" data-7600="left:0%" data-8100="left:-100%">Check in your guests.</p>
 
-	<img id="scanner" data-0="top:-150%;" data-600="top:0%" data-7600="left:0%" data-8100="left:-100%" src="/Users/gracesnoh/Documents/CS practice/pics/Scanner.png" alt="scanner" width="220" height="300">
+	<img id="scanner" data-0="top:-150%;" data-600="top:0%" data-7600="left:0%" data-8100="left:-100%" src="images/Scanner.png" alt="scanner" width="220" height="300">
 	
-	<img id="barcode1" data-700="top:150%; left:-100%;" data-1300="top:30%; left:15%;" data-2000="top:30%; left:15%;" data-2500="top:-50%; left:90%;" src="/Users/gracesnoh/Documents/CS practice/pics/Barcode.png" alt="barcode" width="275" height="175">
+	<img id="barcode1" data-700="top:150%; left:-100%;" data-1300="top:30%; left:15%;" data-2000="top:30%; left:15%;" data-2500="top:-50%; left:90%;" src="images/Barcode.png" alt="barcode" width="275" height="175">
 	
-	<img id="scan" data-1300="opacity:0;" data-1550="opacity:1;" data-2000 data-2200="opacity:0;" data-3600 data-3850="opacity:1" data-4300 data-4500="opacity:0" data-5900 data-6150="opacity:1" data-6600 data-6800="opacity:0" src="/Users/gracesnoh/Documents/CS practice/pics/Scan.png" alt="scan" width="200" height="350">	
+	<img id="scan" data-1300="opacity:0;" data-1550="opacity:1;" data-2000 data-2200="opacity:0;" data-3600 data-3850="opacity:1" data-4300 data-4500="opacity:0" data-5900 data-6150="opacity:1" data-6600 data-6800="opacity:0" src="images/Scan.png" alt="scan" width="200" height="350">	
 
-	<img id="barcode2" data-3000="top:150%; left:-100%;" data-3600="top:30%; left:15%;" data-4300="top:30%; left:15%;" data-4800="top:-50%; left:90%;" src="/Users/gracesnoh/Documents/CS practice/pics/Barcode.png" alt="barcode" width="275" height="175">
+	<img id="barcode2" data-3000="top:150%; left:-100%;" data-3600="top:30%; left:15%;" data-4300="top:30%; left:15%;" data-4800="top:-50%; left:90%;" src="images/Barcode.png" alt="barcode" width="275" height="175">
 
-	<img id="barcode3" data-5300="top:150%; left:-100%;" data-5900="top:30%; left:15%;" data-6600="top:30%; left:15%;" data-7100="top:-50%; left:90%;" src="/Users/gracesnoh/Documents/CS practice/pics/Barcode.png" alt="barcode" width="275" height="175">
+	<img id="barcode3" data-5300="top:150%; left:-100%;" data-5900="top:30%; left:15%;" data-6600="top:30%; left:15%;" data-7100="top:-50%; left:90%;" src="images/Barcode.png" alt="barcode" width="275" height="175">
 	
 	<p id="text" data-1300="opacity:0" data-1800="opacity:1" data-7600="left:0%" data-8100="left:-100%">
 	We offer barcode ticket scanners <br>that you can take to your event <br>to check in your guests by scanning <br>either mobile or paper tickets.
 	</p>
 </div>
-<!--skrollr file-->
-	<script type="text/javascript" src="/Users/gracesnoh/Documents/CS Practice/skrollr-master/dist/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
+	<![endif]-->
+
 	<script type="text/javascript">
-	var s = skrollr.init();
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
 	</script>
+
 </body>
 </html>

@@ -142,6 +142,7 @@ h4 {
 #title {
 	position: static;
 	margin-top: 17%;
+	font-family: verlaglight;
 }
 
 #icon {
@@ -183,7 +184,7 @@ h4 {
 
 /* Scene 2 Create an Account */
 
-#Titleline {
+#Titleline2 {
 	left: 20%;
 	color: white;
 }
@@ -270,4 +271,62 @@ h4 {
 	left: 19%;
 	height: 1.5em;
 	background-color: white;
+}
+
+/* Scene 3 Build your event */
+
+#scene3 {
+	width:100%;
+	height: 100%;
+	color: white;
+	overflow: hidden;
+	
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#Titleline3 {
+	left: 20%;
+	color: white;
+}
+
+#mainstage {
+	height: 50%;
+	bottom: 5%;
+	right: 10%;
+	width: 50%;
+}
+
+.s3stage {
+	position: static;
+}
+
+#stage1 {
+	width: 100%;
+	height: 10%;
+}
+
+#stage2 {
+	bottom: 10%;
+	width: 100%;
+	height: 4%;
+}
+
+#stage3 {
+	bottom: 14%;
+	width: 100%;
+	height: 3%;
+}
+
+#stage4 {
+	width: 3%;
+	top: 0;
+	height: 
 }
