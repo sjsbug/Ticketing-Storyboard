@@ -298,10 +298,12 @@ h4 {
 }
 
 #mainstage {
-	height: 50%;
-	bottom: 5%;
-	right: 10%;
-	width: 50%;
+	height: 70%;
+	top: 15%;
+	right: 5%;
+	max-width: 50%;
+	min-width: 100px;
+	min-height: 140px;
 }
 
 .s3stage {
@@ -309,24 +311,99 @@ h4 {
 }
 
 #stage1 {
-	width: 100%;
-	height: 10%;
+	width: 95%;
+	height: 15%;
+	margin-left: 2.5%;
+	margin-top: .5%;
 }
 
 #stage2 {
-	bottom: 10%;
+	bottom: 11%;
 	width: 100%;
-	height: 4%;
+	height: 3%;
 }
 
 #stage3 {
 	bottom: 14%;
 	width: 100%;
-	height: 3%;
+	height: 5%;
 }
 
 #stage4 {
-	width: 3%;
-	top: 0;
-	height: 
+	top: 2.6%;
+	width: 88.7%;
+	height: 60%;
+	left: 5.65%;
+	position: relative;
+}
+
+#stage5 {
+	height: 3%;
+	width: 100%;
+	position: relative;
+	top: 2.5%;
+}
+
+#stage6 {
+	width: 100%;
+	position: relative;
+	top: 2.5%;
+	height: 20%;
+}
+
+#stage7 {
+	width: 85%;
+	margin-left: 8%;
+	position: absolute;
+	top: 30%;
+}
+
+#stage8_1 {
+	position: absolute;
+	top: 38%;
+	width: 74%;
+	margin-left: 13%;
+}
+
+#shine1 {
+	position: absolute;
+	left: 14.72%;
+}
+
+#shine2 {
+	position: absolute;
+	left: 67.28%;
+	top: 43.6%;
+}
+
+#shine3 {
+	position: absolute;
+	left: 12.4%;
+	top: 43.3%;
+}
+
+#shine4 {
+	position: absolute;
+	left: 47.3%;
+	top: 42%;
+}
+
+#singer {
+	position: absolute;
+	left: 40%;
+	top: 47%;
+	height: 40%;
+}
+
+.shiner {
+	height: 45%;
+	top: 43%;
+}
+
+#s3text {
+	left:10%;
+}
+
+#s3text2 {
+	left:10%;
 }
