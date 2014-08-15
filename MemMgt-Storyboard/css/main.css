@@ -76,6 +76,7 @@ h4 {
 	margin:1em 0;
 }
 
+
 #scrollbar {
 	position:fixed;
 	right:2px;
@@ -136,8 +137,14 @@ h4 {
 	font-family: verlaglight;
 }
 
+#title2 {
+	position: static;
+	font-family: verlagLight;
+	font-size: 1.2em;
+}
+
 #icon {
-	top: 43%;
+	top: 48%;
 	width: 13%;
 	height: 23%;
 }
@@ -178,7 +185,7 @@ h4 {
 /* Scene 2 Create an Account */
 
 #Titleline2 {
-	left: 20%;
+	left: 25%;
 	color: white;
 }
 
@@ -219,56 +226,63 @@ h4 {
 }
 
 #yourwebsite {
+	top: 19%;
+	left: 40%;
 }
 
 #reveal1 {
-	width: 30%;
-	top: 21%;
-	left: 19%;
+	width: 35%;
+	top: -12%;
 	position: relative;
 }
 
 #youremail {
-	top: 25.4%;
+	top: 27.5%;
+	left: 40%;
 }
 
 #reveal2 {
 	width: 30%;
+	top: -2%;
 	position: relative;
 }
 
 #yourpass {
-	top: 33.4%;
+	top: 36%;
+	left: 40%;
 }
 
 #reveal3 {
 	width: 20%;
+	top: 10%;
 	position: relative;
+	
 }
 
 #yourphone {
-	top: 41.2%;
+	top: 44.5%;
+	left: 40%;
 }
 
 #reveal4 {
 	width: 30%;
+	top: 19%;
 	position: relative;
 }
 
 .mugwords {
-	left: 33%;
+	left: 40%;
 	top:18.1%;
 	position: relative;
 	color: black;
 }
 
 .mugbars {
-	left: 19%;
 	height: 1.5em;
 	background-color: white;
 }
 
-/* Scene 3 Create your donation fundraiser */
+/* Scene 3 Create membership levels */
 
 #scene3 {
 	width:100%;
@@ -288,176 +302,76 @@ h4 {
 }
 
 #Titleline3 {
-	left: 25%;
+	left: 23%;
 	color: white;
 }
 
-#factory {
-	height: 70%;
-	top: 15%;
-	right: 5%;
-	max-width: 50%;
-	min-width: 100px;
-	min-height: 140px;
-}
 
-#belttop {
-	width: 800%;
-	height: 2%;
-}
-
-#beltbottom {
-	width: 800%;
-	height: 2%;
-}
-
-#present {
+#president {
 	width: 10%;
-	height: 20%;
-	top: 60%;
-	
-	-webkit-transform-origin:0 100%;
-}
-
-#present2 {
-	width: 10%;
-	height: 20%;
-	top: 60%;
-	
-	-webkit-transform-origin:0 100%;
-}
-
-#present3 {
-	width: 10%;
-	height: 20%;
-	top: 60%;
-	
-	-webkit-transform-origin:0 100%;
-}
-
-#teddy {
-	width: 10%;
-	height: 22%;
-	top: 58%;
-	
-	-webkit-transform-origin:0 100%;
-}
-
-#med {
-	width: 12%;
 	height: 17%;
-	top: 63%;
-	
-	-webkit-transform-origin:0 100%;
+	top: 15%;
+	left: 65%;
 }
 
-#food {	
+#line {
+	position: absolute;
+	z-index: 9002;
+}
+
+#officer1 {
 	width: 10%;
-	height: 23%;
-	top: 57%;
-	
-	-webkit-transform-origin:0 100%;
+	height: 17%;
+	top: 43%;
+	left: 47.5%;
 }
 
-#stamper {
-	width: 25%;
-	height: 90%;
-	left: 60%;
+#officer2 {
+	width: 10%;
+	height: 17%;
+	top: 43%;
+	left: 65%;
 }
 
-#s3text {
-	left:10%;
+
+#officer3 {
+	width: 10%;
+	height: 17%;
+	top: 43%;
+	left: 82%;
 }
 
-/* gears */
-
-#gear {
-	width: 5.6%;
-	height: 9.5%;
-	left: 3%;
-	top: 83%;
-}
-
-#gear2 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 11%;
-	top: 83%;
-}
-
-#gear3 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 19%;
-	top: 83%;
-}
-
-#gear4 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 27%;
-	top: 83%;
-}
-
-#gear5 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 35%;
-	top: 83%;
-}
-
-#gear6 {
-	width: 5.6%;
-	height: 9.5%;
+#member1 {
+	width: 10%;
+	height: 17%;
+	top: 71%;
 	left: 43%;
-	top: 83%;
 }
 
-#gear7 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 51%;
-	top: 83%;
+#member2 {
+	width: 10%;
+	height: 17%;
+	top: 71%;
+	left: 57.5%;
 }
 
-#gear8 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 59%;
-	top: 83%;
+#member3 {
+	width: 10%;
+	height: 17%;
+	top: 71%;
+	left: 72%;
 }
 
-#gear9 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 67%;
-	top: 83%;
+#member4 {
+	width: 10%;
+	height: 17%;
+	top: 71%;
+	left: 87%;
 }
 
-#gear10 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 75%;
-	top: 83%;
-}
+/* Scene 4 Customize information fields */
 
-#gear11 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 83%;
-	top: 83%;
-}
-
-#gear12 {
-	width: 5.6%;
-	height: 9.5%;
-	left: 91%;
-	top: 83%;
-}
-
-/* Scene 5 Integrate with Facebook */
-
-#scene5 {
+#scene4 {
 	width:100%;
 	height: 100%;
 	color: white;
@@ -474,27 +388,25 @@ h4 {
 	box-sizing: border-box;
 }
 
-#Titleline5 {
-	left: 21%;
+#Titleline4 {
+	left: 25%;
 	color: white;
 }
 
-#s5text {
+#s4text {
 	left:10%;
 }
 
-#presentcircle {
-	width: 25%;
-	height: 43%;
-	top: 40%;
+#customfieldbase {
+	width: 50%;
+	height: 55%;
+	left: 45%;
 }
 
-#fbicon {
-	width: 25%;
-	height: 43%;
-	top: 40%;
+#addfield {
+	top: 55%;
+	left: 50%;
 }
-
 /* Scene 6 Check on your donation */
 
 #scene6 {
@@ -536,11 +448,6 @@ h4 {
 	top: 43%;
 }
 
-#gline {
-	position: absolute;
-	z-index: 9002;
-	top: 20%;
-}
 
 /* Scene 7 Success */
 
