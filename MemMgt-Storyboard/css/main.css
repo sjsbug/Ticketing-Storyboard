@@ -35,7 +35,7 @@ ol, ul {
 }
 
 p {
-	margin:1em 0;
+	margin: 1em 0em;
 	line-height:1.1em;
 }
 
@@ -308,16 +308,15 @@ h4 {
 }
 
 #Titleline3 {
-	left: 23%;
 	color: white;
 }
 
 
 #president {
-	width: 10%;
-	height: 17%;
-	top: 15%;
-	left: 65%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 5vw;
+	left: 65vw;
 }
 
 #line {
@@ -326,53 +325,58 @@ h4 {
 }
 
 #officer1 {
-	width: 10%;
-	height: 17%;
-	top: 43%;
-	left: 47.5%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 20vw;
+	left: 47.5vw;
 }
 
 #officer2 {
-	width: 10%;
-	height: 17%;
-	top: 43%;
-	left: 65%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 20vw;
+	left: 65vw;
 }
 
 
 #officer3 {
-	width: 10%;
-	height: 17%;
-	top: 43%;
-	left: 82%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 20vw;
+	left: 82vw;
 }
 
 #member1 {
-	width: 10%;
-	height: 17%;
-	top: 71%;
-	left: 43%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 35vw;
+	left: 43vw;
 }
 
 #member2 {
-	width: 10%;
-	height: 17%;
-	top: 71%;
-	left: 57.5%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 35vw;
+	left: 57.5vw;
 }
 
 #member3 {
-	width: 10%;
-	height: 17%;
-	top: 71%;
-	left: 72%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 35vw;
+	left: 72vw;
 }
 
 #member4 {
-	width: 10%;
-	height: 17%;
-	top: 71%;
-	left: 87%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 35vw;
+	left: 87vw;
+}
+
+#s3text {
+	font-size: 2.3vw;
+	left: 6vw;
 }
 
 /* Scene 4 Customize information fields */
@@ -395,18 +399,18 @@ h4 {
 }
 
 #Titleline4 {
-	left: 25%;
 	color: white;
 }
 
 #s4text {
-	left:10%;
+	font-size: 2.3vw;
+	left: 6vw;
 }
 
 #customfieldbase {
-	width: 640px;/* 50%; */
-	height: 420px;/* 55%; */
-	left: 45%;
+	max-width: 50vw;
+	max-height: 40vw;
+	left: 45vw;
 }
 
 #addfield {
