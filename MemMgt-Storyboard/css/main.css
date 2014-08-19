@@ -58,8 +58,8 @@ h1 > small {
 
 h2 {
 	color:inherit;
-	font-size:1.91em;
-	margin:2em 0 1em 0;
+	font-size:4vw;
+	margin-left: 4vw;
 }
 
 h2:first-child {margin-top:0;}
@@ -105,6 +105,7 @@ h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
+
 
 /* Intro */
 
@@ -194,26 +195,25 @@ h4 {
 /* Scene 2 Create an Account */
 
 #Titleline2 {
-	left: 25%;
 	color: white;
 }
 
 #sumockup {
 	position: absolute;
-	height:100%;
+	height:30vw;
 }
 
 #subutton {
 	position: absolute;
-	width:31.5%;
-	top:84.9%;
-	right:35%;
+	max-width:10vw;
+	top:25.5vw;
+	left:10vw;
 }
 
 #mockupgroup {
-	height:60%;
-	width:30%;
-	margin-left: 33%;
+	max-height:40vw;
+	max-width:60vw;
+	margin-left: 35vw;
 	position: absolute;
 }
 
@@ -235,60 +235,57 @@ h4 {
 }
 
 #yourwebsite {
-	top: 19%;
-	left: 40%;
+	top: 5.3vw;
 }
 
 #reveal1 {
-	width: 35%;
-	top: -12%;
+	max-width: 35vw;
+	top: -5vw;
 	position: relative;
 }
 
 #youremail {
-	top: 27.5%;
-	left: 40%;
+	top: 7.6vw;
 }
 
 #reveal2 {
-	width: 30%;
-	top: -2%;
+	max-width: 30vw;
+	top: -1.5vw;
 	position: relative;
 }
 
 #yourpass {
-	top: 36%;
-	left: 40%;
+	top: 9.9vw;
 }
 
 #reveal3 {
-	width: 20%;
-	top: 10%;
+	max-width: 30vw;
+	top: 1.6vw;
 	position: relative;
 	
 }
 
 #yourphone {
-	top: 44.5%;
-	left: 40%;
+	top: 12.2vw;
 }
 
 #reveal4 {
-	width: 30%;
-	top: 19%;
+	max-width: 30vw;
+	top: 5vw;
 	position: relative;
 }
 
 .mugwords {
-	left: 40%;
-	top:18.1%;
+	left: 10.5vw;
 	position: relative;
 	color: black;
+	font-size: 1.25vw;
 }
 
 .mugbars {
-	height: 1.5em;
+	height: 1.5vw;
 	background-color: white;
+	position: relative;
 }
 
 /* Scene 3 Create membership levels */
