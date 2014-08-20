@@ -414,24 +414,25 @@ h4 {
 }
 
 #addfield {
-	top: 55%;
-	left: 50%;
+	font-size: 2vw;
+	top: 30.5vw;
+	left: 48vw;
 }
 
 #responsibilities {
-	top: 57%;
-	left: 47.5%
+	font-size: 3vw;
+	top: 29.3vw;
+	left: 48vw;
 }
 
 #textbox1 {
 	border: 3px;
 	border-color: #FFFFFF;
-	width: 250px;
-	height: 100px;
-	top: 200px;
-	left: 60%;
+	max-width: 10vw;
+	max-height: 10vw;
+	top: 20vw;
+	left: 30vw;
 	z-index: 10000;
-	position: relative;
 }
 
 /* Scene 6 Check on your donation */
