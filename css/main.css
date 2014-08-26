@@ -68,8 +68,8 @@ h1 > small {
 
 h2 {
 	color:inherit;
-	font-size:1.91em;
-	margin:2em 0 1em 0;
+	font-size:4vw;
+	margin-left: 4vw;
 }
 
 h2:first-child {margin-top:0;}
@@ -82,8 +82,8 @@ h3 {
 
 h4 {
 	color:#444;
-	font-size:1.11em;
-	margin:1em 0;
+	font-size:2.5vw;
+	margin-left: 7.2vw;
 }
 
 #scrollbar {
@@ -128,7 +128,6 @@ h4 {
 #intro {
 	width:100%;
 	height: 100%;
-	left:50%;
 	color: white;
 	text-align:center;
 	
@@ -144,24 +143,35 @@ h4 {
 }
 
 #logo {
-	width: 40%;
-	left: 29.5%;
+  	max-width:40vw;
+    max-height:40vw;
+    position: absolute;
+    margin-top: 0vw; margin-left: -20vw;
 }
 
 #title {
-	position: static;
-	margin-top: 17%;
+	position: relative;
+	margin-top: 16vw; margin-bottom: auto;
 	font-family: verlaglight;
+	font-size: 4vw;
+	margin-right: auto; margin-left: auto;
 }
 
 #icon {
-	top: 30%;
+  	max-width:12vw;
+    max-height:12vw;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    margin-top: 26vw; margin-bottom: auto;
 }
 
 #tagline {
 	position: relative;
-	top: 30%;
+	font-size: 1.5vw;
+	margin-right: auto; margin-left: auto;
+	margin-top: 19vw; margin-bottom: auto;
 }
+
 
 #properties {
 	width:100%;
@@ -194,27 +204,25 @@ h4 {
 /* Scene 2 Create an Account */
 
 #Titleline2 {
-	left: 20%;
 	color: white;
 }
 
 #sumockup {
 	position: absolute;
-	height:100%;
+	height:30vw;
 }
 
 #subutton {
 	position: absolute;
-	width:115px;
-	height: 38px;
-	top:84.9%;
-	left:11vw;
+	max-width:10vw;
+	top:25.5vw;
+	left:10vw;
 }
 
 #mockupgroup {
-	height:390px;
-	width:230px;
-	margin-left: 33%;
+	max-height:40vw;
+	max-width:60vw;
+	margin-left: 35vw;
 	position: absolute;
 }
 
@@ -236,49 +244,57 @@ h4 {
 }
 
 #yourwebsite {
+	top: 5.3vw;
 }
 
 #reveal1 {
-	top: 21%;
+	max-width: 35vw;
+	top: -5vw;
 	position: relative;
 }
 
 #youremail {
-	top: 25.4%;
+	top: 7.6vw;
 }
 
 #reveal2 {
+	max-width: 30vw;
+	top: -1.5vw;
 	position: relative;
 }
 
 #yourpass {
-	top: 33.4%;
+	top: 9.9vw;
 }
 
 #reveal3 {
+	max-width: 30vw;
+	top: 1.6vw;
 	position: relative;
+	
 }
 
 #yourphone {
-	top: 41.2%;
+	top: 12.2vw;
 }
 
 #reveal4 {
+	max-width: 30vw;
+	top: 5vw;
 	position: relative;
 }
 
 .mugwords {
-	left: 138px;
-	top:18.1%;
+	left: 10.5vw;
 	position: relative;
 	color: black;
+	font-size: 1.25vw;
 }
 
 .mugbars {
-	left: 138px;
-	height: 1.5em;
+	height: 1.5vw;
 	background-color: white;
-	width: 135px;
+	position: relative;
 }
 
 /* Scene 3 Build your event */
@@ -300,128 +316,136 @@ h4 {
 	box-sizing: border-box;
 }
 
-#Titleline3 {
-	left: 20%;
-	color: white;
-}
-
 #mainstage {
-	height: 70%;
-	top: 15%;
-	right: 5%;
-	max-width: 50%;
-	min-width: 100px;
-	min-height: 140px;
+/*	height: 30vw;
+*/	top: 5vw;
+	left: 40vw;
+/*	width: 50vw;
+*/	position: absolute;
 }
 
-.s3stage {
-	position: static;
-}
+/*.s3stage {
+	position: absolute;
+}*/
 
 #stage1 {
-	width: 95%;
-	height: 15%;
-	margin-left: 2.5%;
-	margin-top: .5%;
+	width: 49vw;
+	margin-left: .55vw;
+	position: absolute;
+	top: 31.5vw;
+	left: 0vw;
+	-webkit-transform-origin:0 100%;
+	-moz-transform-origin:0 100%;
+	-ms-transform-origin:0 100%;
+	-o-transform-origin:0 100%;
+	transform-origin:0 100%;
 }
 
 #stage2 {
-	bottom: 11%;
-	width: 100%;
-	height: 3%;
+	position: absolute;
+	left: 0vw;
+	top: 30.2vw;
+	width: 50vw;
+	height: 1vw;
 }
 
 #stage3 {
-	bottom: 14%;
-	width: 100%;
-	height: 5%;
+	position: absolute;
+	left: 0vw;
+	top: 28.5vw;
+	width: 50vw;
+	height: 2vw;
 }
 
 #stage4 {
-	top: 2.6%;
-	width: 88.7%;
-	height: 60%;
-	left: 5.65%;
+	top: 9.3vw;
+	width: 44.32vw;
+	left: 0vw;
+	margin-left: 2.86vw;
+	-webkit-transform-origin:0 100%;
+	-moz-transform-origin:0 100%;
+	-ms-transform-origin:0 100%;
+	-o-transform-origin:0 100%;
+	transform-origin:0 100%;
 	position: relative;
 }
 
 #stage5 {
-	height: 3%;
-	width: 100%;
-	position: relative;
-	top: 2.5%;
+	position: absolute;
+	left:0vw;
+	top:8vw;
+	height: 1vw;
+	width: 50vw;
+	position: absolute;
 }
 
 #stage6 {
-	width: 100%;
-	position: relative;
-	top: 2.5%;
-	height: 20%;
+	width: 50vw;
+	position: absolute;
+	top: .7vw;
+	height: 7vw;
+	left: 0vw;
 }
 
 #stage7 {
-	width: 85%;
-	margin-left: 8%;
+	width: 42.5vw;
+	margin-left: 4.2vw;
 	position: absolute;
-	top: 30%;
+	top: 10vw;
 }
 
 #stage8_1 {
 	position: absolute;
-	top: 38%;
-	width: 74%;
-	margin-left: 13%;
+	top: 12.5vw;
+	width: 38vw;
+	margin-left: 6vw;
 }
 
 #shine1 {
 	position: absolute;
-	left: 14.72%;
+	left: 6.9vw;
+	top: 14.3vw;
+	height: 15vw;
 }
 
 #shine2 {
 	position: absolute;
-	left: 67.28%;
-	top: 43.6%;
+	left: 34.1vw;
+	top: 14.35vw;
+	height: 15vw;
 }
 
 #shine3 {
 	position: absolute;
-	left: 12.4%;
-	top: 43.3%;
+	left: 5.77vw;
+	top: 14.3vw;
+	height: 15vw;
 }
 
 #shine4 {
 	position: absolute;
-	left: 47.3%;
-	top: 42%;
+	left: 24.15vw;
+	top: 14vw;
+	height: 15vw;
 }
 
 #singer {
-	position: absolute;
-	left: 40%;
-	top: 47%;
-	height: 40%;
+    position: absolute;
+    left: 22vw;
+    top: 15.8vw;
+    height: 13vw;
 }
 
-.shiner {
-	height: 45%;
-	top: 43%;
-}
 
-#s3text {
-	left:10%;
-}
-
-#s3text2 {
-	left:10%;
-}
 
 #ham1 {
 	position: absolute;
+	width: 7vw;
 }
 
 #ham2 {
 	position: absolute;
+	width: 7vw;
 }
 
 /* Scene 4 Add the code */
