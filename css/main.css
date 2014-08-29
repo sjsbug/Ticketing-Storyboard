@@ -317,16 +317,10 @@ h4 {
 }
 
 #mainstage {
-/*	height: 30vw;
-*/	top: 5vw;
+	top: 5vw;
 	left: 40vw;
-/*	width: 50vw;
-*/	position: absolute;
-}
-
-/*.s3stage {
 	position: absolute;
-}*/
+}
 
 #stage1 {
 	width: 49vw;
@@ -467,23 +461,15 @@ h4 {
 	box-sizing: border-box;
 }
 
-#Titleline4 {
-	top: 10%;
-	left: 25%;
-	color: white;
-}
-
 #Subtitleline4 {
-	left: 15%;
-	top: 35%;
+	top: 10vw;
 }
 
 #oven {
-	height: 450px;
-	top: 25%;
-	width: 500px;
-	height: 450px;
-	left: 35%;
+	height: 35vw;
+	top: 10vw;
+	width: 40vw;
+	left: 40vw;
 	position: absolute;
 }
 
@@ -507,66 +493,52 @@ h4 {
 }
 
 #omitt {
-	width: 190px;
-	height: auto;
+	width: 17vw;
+	height: 10vw;
 }
 
 #opann {
-	width: 325px;
-	height: auto;
+	width: 29vw;
+	height: 7vw;
 	z-index: 500;
 }
 
 #otimr {
-	left: 0px;
-	top: 0px;
-	position: absolute;
+	font-size: 4vw;
+	left: 83vw;
+	top: 15vw;
 }
 
-#otdraw {
-	height: 205px;
-	width: 205px;
+#otbox {
+	background-color: #FFFFFF;
+	width: 5vw;
 	position: absolute;
-	left:-80px;
-	top:-50px;
+	left: 82vw;
+	top: 25vw;
 }
 
-#timrgrp {
-	height: 205px;
-	width: 215px;
-	position: absolute;
-	left: 1150px;
-	top: 250px;
-}
 
 #sizzle {
 	position: absolute;
-	width: 50px;
-	height: 55px;
-	left: 220px;
-	top: 200px;
+	width: 5vw;
+	height: 5vw;
+	left: 17vw;
+	top: 15vw;
 }
 
 /* Scene 5 */
 
 #Titleline5 {
-	left: 47vw;
-	top: 20vh;
-	-webkit-transform-origin:50% 100%;
-	-moz-transform-origin:50% 100%;
-	-ms-transform-origin:50% 100%;
-	-o-transform-origin:50% 100%;
-	transform-origin:50% 100%;
+	left: 33vw;
+	top: 0vw;
+	font-size: 10vw;
+	position: absolute;
 }
 
 #Subline5a {
-	left: 45vw;
-	top: 50vh;
-	-webkit-transform-origin:50% 100%;
-	-moz-transform-origin:50% 100%;
-	-ms-transform-origin:50% 100%;
-	-o-transform-origin:50% 100%;
-	transform-origin:50% 100%;
+	left: 33vw;
+	top: 24vw;
+	font-size: 4vw;
 }
 
 /* Scene 6 Check Sales */
