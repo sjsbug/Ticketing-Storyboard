@@ -259,7 +259,7 @@ h4 {
 
 #reveal2 {
 	max-width: 30vw;
-	top: -1.5vw;
+	top: -1.7vw;
 	position: relative;
 }
 
@@ -280,7 +280,7 @@ h4 {
 
 #reveal4 {
 	max-width: 30vw;
-	top: 5vw;
+	top: 4.8vw;
 	position: relative;
 }
 
@@ -292,10 +292,10 @@ h4 {
 }
 
 .mugbars {
-	height: 1.5vw;
+	height: 1.6vw;
 	background-color: white;
-	position: relative;
-}
+/*	position: relative;
+*/}
 
 /* Scene 3 Build your event */
 
@@ -561,18 +561,24 @@ h4 {
 }
 
 #Titleline6 {
-	top: 10%;
-}
-
-#6graph {
 
 }
 
-#maknbank { left: 70%; top: 40%; font-size: 400%;}
+#graph6 {
+	position:absolute;
+	width:50vw;
+	height:35vw;
+	left:10vw;
+	top:10vw;
+}
 
-#gline {
-	position: absolute;
-	z-index: 9002;
+#maknbank { left: 70vw; top: 15vw; font-size: 7vw;}
+
+#line6 {
+	position:absolute;
+	width:48vw;
+	left:10.6vw;
+	top:9.0vw;
 }
 
 /* Scene 7 Ticket Scanning */
