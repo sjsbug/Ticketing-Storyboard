@@ -70,6 +70,7 @@ h2 {
 	color:inherit;
 	font-size:4vw;
 	margin-left: 4vw;
+	font-family: 'verlaglight', sans-serif;
 }
 
 h2:first-child {margin-top:0;}
@@ -146,7 +147,7 @@ h4 {
   	max-width:40vw;
     max-height:40vw;
     position: absolute;
-    margin-top: 0vw; margin-left: -20vw;
+    margin-top: 0vw; left: 29vw;
 }
 
 #title {
@@ -621,8 +622,83 @@ h4 {
 	top: 10vw;
 }
 
+/* Scene 8 See What Worked */
 
+#scene8 {
+	width:100%;
+	height: 100%;
+	color: white;
+	overflow: hidden;
+	
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#s8text {
+	top: 10vw;
+}
+
+#sheets {
+	position: absolute;
+	width:50vw;
+	left:43vw;
+	top:10vw;
+}
+
+#socdat {
+	position: absolute;
+	width:28vw;
+	left:45vw;
+	top:16vw;
+}
+
+#datas8 {
+	position:absolute;
+	width:42vw;
+	left:45vw;
+	top:20vw;
+}
+
+/* Scene 9 Conclusion */
+
+#scene9 {
+	width:100%;
+	height: 100%;
+	color: white;
+	overflow: hidden;
+	
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#notepad {
+	width:40vw;
+	left: 30vw;
+}
+
+#checkmk {
+	width:3vw;
+	left:50.5vw;
+	top:16vw;
+}
+
+#nxtevnt {
+
+}
 
 
 /* media query for screen size */
