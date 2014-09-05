@@ -514,7 +514,7 @@ h4 {
 	background-color: #FFFFFF;
 	width: 5vw;
 	position: absolute;
-	left: 82vw;
+	left: 82.5vw;
 	top: 25vw;
 }
 
@@ -697,9 +697,10 @@ h4 {
 }
 
 #nxtevnt {
-
+	width: 14.5vw;
+	left: 40vw;
+	top: 23.5vw;
 }
-
 
 /* media query for screen size */
 /*
